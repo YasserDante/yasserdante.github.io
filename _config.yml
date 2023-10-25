@@ -1,5 +1,5 @@
 title: Yasser Dehghanian
-subtitle: Here is My Portfolio
+subtitle: Program developer
 description: >- # this means to ignore newlines until "baseurl:"
   devlopr-jekyll is a beautiful Jekyll Theme Built For Developers, which is optimized for speed and readability.
 
@@ -18,15 +18,15 @@ urls:
     #   url: /gallery
     # - text: Shop
     #   url : /shop
-    - text: Contact
-      url : /contact
+    # - text: Contact
+    #   url : /contact
 
 
 # Edit Author details (For multi authors check _data/authors.yml)
 
 author_logo: profile.png
 author: Yasser Dehghanian
-author_bio: Hi, my name is John Doe. I built this site using devlopr-jekyll :D
+author_bio: Hi, I'm Yasser. I started programming when I was young just to have fun and ended up doing it as my job.
 author_email: "Yasser.Dehghanian@yahoo.com"
 author_location: Iran
 #author_website_url: "https://sujaykundu.com"
@@ -35,40 +35,58 @@ hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg.
 
 # Experiences
 author_work_experiences:
-            - company_name: Google
+            - company_name: Freelance
               company_logo: google.png
-              company_url: https://google.com
-              designation: Software Engineer
-              description: Worked on various Google Products
+              designation: Programming
+              description: UE Game development, C++, C#
               visibility: true
-            - company_name: Microsoft
-              company_logo: microsoft.png
-              company_url: https://microsoft.com
-              designation: Azure Developer
-              description: Worked on various Azure Cloud Products
+            - company_name: Qoo Studio
+              company_logo: QooStudio.png
+              company_url: https://QooStudio.com
+              designation: UE4 Game Developer
+              description: Developed Atchviz experiences using UE4 C++ and Blueprint for VR and PC platforms
+              visibility: true
+            - company_name: Petro Azma
+              company_logo: PetroAzma.png
+              company_url: https://PetroAzma.com
+              designation: Software Developer
+              description: Developed some systems to work with petroleum lab devices, data gathering and analysis tools
+              visibility: true
+            - company_name: Parto Pars
+              company_logo: PartoPars.png
+              company_url: https://www.partopars.com/ 
+              designation: Software Developer
+              description: Worked on Accounting system with C#
               visibility: true
 
 # Education
 author_education_details:
-              - college_logo: mit.png
-                college_name: MIT
-                college_url: https://mit.org
-                college_degree: CS Engineer
-                description: Bachelor of Technology
+              # - college_logo: Zand.png
+              #   college_name: Bahonar Shiraz
+              #   college_url: https://zand.ac.ir/ 
+              #   college_degree: B. S. 
+              #   description: Software Engineering
+              #   visibility: true
+
+              - college_logo: Zand.png
+                college_name: Zand Shiraz
+                college_url: https://zand.ac.ir/ 
+                college_degree: M. S. 
+                description: Software Engineering
                 visibility: true
 
 # Projects
-author_project_details:
-              - project_thumbnail: gamershub.png
-                project_title: Gamers Hub
-                project_description: A Platform built for Gamers and Game Devs
-                project_url: https://gamershub.in
-                visibility: true
-              - project_thumbnail: hack4r.PNG
-                project_title: Hack4r
-                project_description: A Platform built for Hackers and Penetration Testers
-                project_url: https://hack4r.com
-                visibility: true
+# author_project_details:
+#               - project_thumbnail: gamershub.png
+#                 project_title: Gamers Hub
+#                 project_description: A Platform built for Gamers and Game Devs
+#                 project_url: https://gamershub.in
+#                 visibility: true
+#               - project_thumbnail: hack4r.PNG
+#                 project_title: Hack4r
+#                 project_description: A Platform built for Hackers and Penetration Testers
+#                 project_url: https://hack4r.com
+#                 visibility: true
 
 # social links
 #twitter_username: johndoe
